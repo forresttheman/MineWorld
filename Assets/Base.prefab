@@ -119,6 +119,7 @@ MonoBehaviour:
   - {fileID: 2383193400395970728}
   turretIndex: 1
   desiredTurret: 1
+  turretController: {fileID: 0}
 --- !u!1 &4353498475811029397
 GameObject:
   m_ObjectHideFlags: 0
@@ -526,7 +527,7 @@ GameObject:
   - component: {fileID: 8707351020170468486}
   m_Layer: 0
   m_Name: Turret
-  m_TagString: Untagged
+  m_TagString: Tower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -689,7 +690,7 @@ GameObject:
   - component: {fileID: 8707351021040873240}
   m_Layer: 0
   m_Name: Gun
-  m_TagString: Untagged
+  m_TagString: Barrels
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -929,9 +930,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5571508209852435848}
     m_Modifications:
+    - target: {fileID: 1000010357398462, guid: c36865a7da8627b42a5d8dae1b1a98bb, type: 3}
+      propertyPath: m_TagString
+      value: Tower
+      objectReference: {fileID: 0}
     - target: {fileID: 1000012258839112, guid: c36865a7da8627b42a5d8dae1b1a98bb, type: 3}
       propertyPath: m_Name
       value: Turret 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013319699188, guid: c36865a7da8627b42a5d8dae1b1a98bb, type: 3}
+      propertyPath: m_TagString
+      value: Barrels
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013376629398, guid: c36865a7da8627b42a5d8dae1b1a98bb, type: 3}
+      propertyPath: m_TagString
+      value: Barrels
       objectReference: {fileID: 0}
     - target: {fileID: 4000010324646232, guid: c36865a7da8627b42a5d8dae1b1a98bb, type: 3}
       propertyPath: m_RootOrder

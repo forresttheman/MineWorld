@@ -5,8 +5,18 @@ using UnityEngine;
 public class TurretTypeSelect : MonoBehaviour
 {
     public GameObject[] Turrets;
-    public int turretIndex = 1;
+    private int turretIndex = 1;
     public int desiredTurret = 1;
+    private GameObject tower;
+
+    private GameObject[] barrels;
+    private Transform barrelTrans;
+    private readonly Transform[] barrelTransList;
+    private int TransAddIndex = 0;
+
+    private GameObject scriptHolder;
+    public TurretControllerWASD turretController;
+
 
     void SelectTurret()
     {
@@ -20,6 +30,31 @@ public class TurretTypeSelect : MonoBehaviour
                 {
                     turret.SetActive(true);
                     Debug.Log("Desired Turret Selected");
+
+                    //find the tower in hierarchy
+                    tower = GameObject.FindGameObjectWithTag("Tower");
+
+                    //find the transform component and set the turret controller transform to it
+                    turretController.Tower = tower.GetComponent<Transform>();
+
+
+                    //find the barrels in hierarchy
+                    barrels = GameObject.FindGameObjectsWithTag("Barrels");
+                    //find the transform component and set the turret controller transform to it
+                    foreach (GameObject barrel in barrels)
+                    {
+                        TransAddIndex += 1;
+
+                        barrelTrans = barrel.GetComponent<Transform>();
+
+                        //this doesn't work....
+                        barrelTransList[TransAddIndex - 1] = barrelTrans;
+
+                        Debug.Log(barrelTransList);
+                    }
+
+                    turretController.Barrels = barrelTransList;
+
                 }
 
                 else
@@ -50,6 +85,9 @@ public class TurretTypeSelect : MonoBehaviour
 
     void Start()
     {
+        scriptHolder = GameObject.Find("Base");
+        turretController = scriptHolder.GetComponent<TurretControllerWASD>();
         SelectTurret();
+        Debug.Log("Success");
     }
 }
