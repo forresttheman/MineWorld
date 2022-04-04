@@ -5,7 +5,7 @@ using UnityEngine;
 public class TurretControllerWASD : MonoBehaviour
 {
     public Transform Tower;
-    public Transform[] Barrels;
+    public List<Transform> Barrels;
     public float towerInc = 60f;
     float towerSpeed;
     public float barrelSpeed = 200f;

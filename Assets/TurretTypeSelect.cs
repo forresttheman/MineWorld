@@ -11,8 +11,7 @@ public class TurretTypeSelect : MonoBehaviour
 
     private GameObject[] barrels;
     private Transform barrelTrans;
-    private readonly Transform[] barrelTransList;
-    private int TransAddIndex = 0;
+    private readonly List<Transform> barrelTransList; 
 
     private GameObject scriptHolder;
     public TurretControllerWASD turretController;
@@ -40,15 +39,12 @@ public class TurretTypeSelect : MonoBehaviour
 
                     //find the barrels in hierarchy
                     barrels = GameObject.FindGameObjectsWithTag("Barrels");
+
                     //find the transform component and set the turret controller transform to it
                     foreach (GameObject barrel in barrels)
                     {
-                        TransAddIndex += 1;
-
                         barrelTrans = barrel.GetComponent<Transform>();
-
-                        //this doesn't work....
-                        barrelTransList[TransAddIndex - 1] = barrelTrans;
+                        barrelTransList.Add(barrelTrans);
 
                         Debug.Log(barrelTransList);
                     }
@@ -62,13 +58,13 @@ public class TurretTypeSelect : MonoBehaviour
                     turret.SetActive(false);
                     Debug.Log("Skipped Turret");
                 }
-
                 
                 if (turretIndex > Turrets.Length)
                 {
                     Debug.Log("Done.");
                     break;
                 }
+
             }
         }
 
@@ -81,6 +77,7 @@ public class TurretTypeSelect : MonoBehaviour
                 break;
             }
         }
+
     }
 
     void Start()
@@ -89,5 +86,19 @@ public class TurretTypeSelect : MonoBehaviour
         turretController = scriptHolder.GetComponent<TurretControllerWASD>();
         SelectTurret();
         Debug.Log("Success");
+    }
+
+    void Update()
+    {
+        if (Input.GetKeyDown("p"))
+        {
+            desiredTurret += 1;
+            SelectTurret();
+        }
+
+        if (desiredTurret >= Turrets.Length)
+        {
+            desiredTurret = Turrets.Length;
+        }
     }
 }

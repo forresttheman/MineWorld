@@ -117,7 +117,6 @@ MonoBehaviour:
   - {fileID: 4395542053500331800}
   - {fileID: 2267852092011426991}
   - {fileID: 2383193400395970728}
-  turretIndex: 1
   desiredTurret: 1
   turretController: {fileID: 0}
 --- !u!1 &4353498475811029397
@@ -800,6 +799,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: Turret 3
       objectReference: {fileID: 0}
+    - target: {fileID: 1000010548752912, guid: 913c474af4fed6e45bc3725b21e84f11, type: 3}
+      propertyPath: m_TagString
+      value: Tower
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000011413227632, guid: 913c474af4fed6e45bc3725b21e84f11, type: 3}
+      propertyPath: m_TagString
+      value: Barrels
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000012538721730, guid: 913c474af4fed6e45bc3725b21e84f11, type: 3}
+      propertyPath: m_TagString
+      value: Barrels
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000014204640282, guid: 913c474af4fed6e45bc3725b21e84f11, type: 3}
+      propertyPath: m_TagString
+      value: Barrels
+      objectReference: {fileID: 0}
     - target: {fileID: 4000012355355172, guid: 913c474af4fed6e45bc3725b21e84f11, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -866,6 +881,14 @@ PrefabInstance:
     - target: {fileID: 1000011222192992, guid: 9b3a643ca887918468955b42c4531666, type: 3}
       propertyPath: m_Name
       value: Turret 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000012439138410, guid: 9b3a643ca887918468955b42c4531666, type: 3}
+      propertyPath: m_TagString
+      value: Tower
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000012782717092, guid: 9b3a643ca887918468955b42c4531666, type: 3}
+      propertyPath: m_TagString
+      value: Barrels
       objectReference: {fileID: 0}
     - target: {fileID: 4000013081111600, guid: 9b3a643ca887918468955b42c4531666, type: 3}
       propertyPath: m_RootOrder

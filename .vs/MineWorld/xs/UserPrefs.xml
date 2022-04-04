@@ -1,8 +1,8 @@
 ﻿<Properties StartupConfiguration="{01C476A1-4C43-8C47-322B-82D30607E01B}|">
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/TurretTypeSelect.cs">
     <Files>
-      <File FileName="Assets/Imported Assets/My Assets/Turrets/TurretControllerWASD.cs" Line="62" Column="1" />
-      <File FileName="Assets/TurretTypeSelect.cs" Line="7" Column="12" />
+      <File FileName="Assets/Imported Assets/My Assets/Turrets/TurretControllerWASD.cs" Line="12" Column="23" />
+      <File FileName="Assets/TurretTypeSelect.cs" Line="21" Column="24" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -11,10 +11,11 @@
             <Node name="Assets" expanded="True">
               <Node name="Imported Assets" expanded="True">
                 <Node name="My Assets" expanded="True">
-                  <Node name="Turrets" expanded="True" />
+                  <Node name="Turrets" expanded="True">
+                    <Node name="TurretControllerWASD.cs" selected="True" />
+                  </Node>
                 </Node>
               </Node>
-              <Node name="TurretTypeSelect.cs" selected="True" />
             </Node>
           </Node>
         </State>
