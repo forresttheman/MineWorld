@@ -880,7 +880,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &6808270464373719758
 Transform:
   m_ObjectHideFlags: 0
@@ -956,6 +956,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 11400004, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
+      propertyPath: movementSettings.RunKey
+      value: 113
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400004, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
       propertyPath: advancedSettings.shellOffset
       value: 0.1
       objectReference: {fileID: 0}
@@ -981,6 +985,10 @@ PrefabInstance:
     - target: {fileID: 1000010378282670, guid: 913c474af4fed6e45bc3725b21e84f11, type: 3}
       propertyPath: m_Name
       value: Turret 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010378282670, guid: 913c474af4fed6e45bc3725b21e84f11, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1000010548752912, guid: 913c474af4fed6e45bc3725b21e84f11, type: 3}
       propertyPath: m_TagString
@@ -1223,6 +1231,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Turret 4
       objectReference: {fileID: 0}
+    - target: {fileID: 1000011222192992, guid: 9b3a643ca887918468955b42c4531666, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1000012439138410, guid: 9b3a643ca887918468955b42c4531666, type: 3}
       propertyPath: m_TagString
       value: Tower
@@ -1411,6 +1423,10 @@ PrefabInstance:
     - target: {fileID: 1000012258839112, guid: c36865a7da8627b42a5d8dae1b1a98bb, type: 3}
       propertyPath: m_Name
       value: Turret 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000012258839112, guid: c36865a7da8627b42a5d8dae1b1a98bb, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1000013319699188, guid: c36865a7da8627b42a5d8dae1b1a98bb, type: 3}
       propertyPath: m_TagString

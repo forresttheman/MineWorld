@@ -1,12 +1,14 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class DayNightCycle : MonoBehaviour
 {
     [Range(0.0f, 1.0f)]
     public float time;
+    [Tooltip("Length of day in seconds")]
     public float fullDayLength;
+
+    [Tooltip("In a range between 0-1")]
+    [Range(0.0f, 1.0f)]
     public float startTime = 0.4f;
     private float timeRate;
     public Vector3 noon;

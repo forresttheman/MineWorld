@@ -15,12 +15,14 @@ public class RotateBaseElement : MonoBehaviour
     public Transform baseElement4;
     public Transform pylonElement4;
 
+    [Header ("Speed")]
+    [Tooltip("Controls how fast the element rotates")]
     public float rotateSpeed;
     float baseAngle;
     float pylonAngle;
 
     private GameObject parent;
-    public TurretTypeSelect selector;
+    private TurretTypeSelect selector;
 
 
     void Start()
