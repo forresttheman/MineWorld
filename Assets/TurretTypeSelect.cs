@@ -9,10 +9,6 @@ public class TurretTypeSelect : MonoBehaviour
     public int desiredTurret = 1;
     private GameObject tower;
 
-    private GameObject[] barrels;
-    private Transform barrelTrans;
-    private readonly List<Transform> barrelTransList; 
-
     private GameObject scriptHolder;
     public TurretControllerWASD turretController;
 
@@ -36,21 +32,6 @@ public class TurretTypeSelect : MonoBehaviour
                     //find the transform component and set the turret controller transform to it
                     turretController.Tower = tower.GetComponent<Transform>();
 
-
-                    //find the barrels in hierarchy
-                    barrels = GameObject.FindGameObjectsWithTag("Barrels");
-
-                    //find the transform component and set the turret controller transform to it
-                    foreach (GameObject barrel in barrels)
-                    {
-                        barrelTrans = barrel.GetComponent<Transform>();
-                        barrelTransList.Add(barrelTrans);
-
-                        Debug.Log(barrelTransList);
-                    }
-
-                    turretController.Barrels = barrelTransList;
-
                 }
 
                 else
@@ -64,12 +45,10 @@ public class TurretTypeSelect : MonoBehaviour
                     Debug.Log("Done.");
                     break;
                 }
-
             }
         }
 
-        else
-        {
+        else {
             Debug.Log("turrrrr");
             foreach (GameObject turret in Turrets)
             {
