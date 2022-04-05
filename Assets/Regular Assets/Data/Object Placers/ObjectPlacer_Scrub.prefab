@@ -76,7 +76,7 @@ MonoBehaviour:
     Weighting: 0.06
     Prefabs:
     - {fileID: 8783306491908617939, guid: f02116c209ecd9e488fc4d2cd8996133, type: 3}
-  TargetDensity: 0.1
+  TargetDensity: 0.5
   MaxSpawnCount: 1000
   MaxInvalidLocationSkips: 10
   MaxPositionJitter: 0.15
