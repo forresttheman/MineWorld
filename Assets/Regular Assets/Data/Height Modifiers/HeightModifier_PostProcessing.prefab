@@ -99,11 +99,11 @@ MonoBehaviour:
   Strength: 1
   Buildings:
   - HeightMap: {fileID: 2800000, guid: 0ab67c96916fe4343bd3c1041727dae2, type: 3}
-    Prefab: {fileID: 7880999669688678654, guid: e8c210deacd13b9489985aa64cd18939, type: 3}
+    Prefab: {fileID: 3883836792120752580, guid: 3d0055f118e1d43ef898ed05e06f1191, type: 3}
     Radius: 25
-    NumToSpawn: 4
-    HasHeightLimits: 0
-    MinHeightToSpawn: 0
-    MaxHeightToSpawn: 0
+    NumToSpawn: 1
+    HasHeightLimits: 1
+    MinHeightToSpawn: 25
+    MaxHeightToSpawn: 200
     CanGoInWater: 0
     CanGoAboveWater: 1

@@ -56,7 +56,9 @@
     <Analyzer Include="/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets/Regular Assets/My Assets/Turrets/TurretTypeSelect.cs" />
     <Compile Include="Assets/Regular Assets/Scripts/HeightMapModifiers/HeightMapModifier_SetValue.cs" />
+    <Compile Include="Assets/Imported Assets/Sci Fi Assets/Simple SciFi Gun Turret Set/Scripts/CameraMouseDrag.cs" />
     <Compile Include="Assets/Regular Assets/Scripts/ObjectPlacers/ObjectPlacer_Perlin.cs" />
     <Compile Include="Assets/Regular Assets/Scripts/TexturePainters/TexturePainter_Slope.cs" />
     <Compile Include="Assets/Imported Assets/Asset Store/SimpleCloudSystem by RM/SCS.cs" />
@@ -66,7 +68,7 @@
     <Compile Include="Assets/Regular Assets/Scripts/UI/ProcGenDebugUI.cs" />
     <Compile Include="Assets/Regular Assets/Scripts/HeightMapModifiers/HeightMapModifier_Features.cs" />
     <Compile Include="Assets/Regular Assets/Scripts/HeightMapModifiers/HeightMapModifier_Noise.cs" />
-    <Compile Include="Assets/Imported Assets/My Assets/Turrets/TurretControllerWASD.cs" />
+    <Compile Include="Assets/Regular Assets/My Assets/Turrets/TurretControllerWASD.cs" />
     <Compile Include="Assets/Imported Assets/Asset Store/LowPolyWater_Pack/Scripts/LowPolyWater.cs" />
     <Compile Include="Assets/Regular Assets/Scripts/HeightMapModifiers/HeightMapModifier_Buildings.cs" />
     <Compile Include="Assets/Regular Assets/Scripts/HeightMapModifiers/BaseHeightMapModifier.cs" />
@@ -77,17 +79,16 @@
     <Compile Include="Assets/Regular Assets/Scripts/ObjectPlacers/ObjectPlacer_Random.cs" />
     <Compile Include="Assets/Regular Assets/Scripts/FirstPersonCharacter/Scripts/RigidbodyFirstPersonController.cs" />
     <Compile Include="Assets/Regular Assets/Scripts/DayNightCycle.cs" />
-    <Compile Include="Assets/Imported Assets/My Assets/Turrets/RotateBaseElement.cs" />
+    <Compile Include="Assets/Imported Assets/Sci Fi Assets/Simple SciFi Gun Turret Set/Scripts/MoveMe.cs" />
+    <Compile Include="Assets/Regular Assets/My Assets/Turrets/RotateBaseElement.cs" />
     <Compile Include="Assets/Regular Assets/Scripts/ProcGenConfigSO.cs" />
     <Compile Include="Assets/Regular Assets/Scripts/HeightMapModifiers/HeightMapModifier_Smooth.cs" />
     <Compile Include="Assets/Regular Assets/Scripts/TexturePainters/BaseTexturePainter.cs" />
-    <Compile Include="Assets/Imported Assets/My Assets/Turrets/TurretControllerMouse.cs" />
+    <Compile Include="Assets/Regular Assets/My Assets/Turrets/TurretControllerMouse.cs" />
+    <Compile Include="Assets/Imported Assets/Sci Fi Assets/Simple SciFi Gun Turret Set/Scripts/CameraMouseRotate.cs" />
     <Compile Include="Assets/Regular Assets/Scripts/HeightMapModifiers/HeightMapModifier_Random.cs" />
     <Compile Include="Assets/Regular Assets/Scripts/TexturePainters/TexturePainter_Random.cs" />
-    <Compile Include="Assets/Imported Assets/Sci Fi Assets/Simple SciFi Gun Turret Set/Scripts/CameraMouseDrag.cs" />
-    <Compile Include="Assets/Imported Assets/Sci Fi Assets/Simple SciFi Gun Turret Set/Scripts/MoveMe.cs" />
-    <Compile Include="Assets/Imported Assets/Sci Fi Assets/Simple SciFi Gun Turret Set/Scripts/CameraMouseRotate.cs" />
-    <Compile Include="Assets/TurretTypeSelect.cs" />
+    <Compile Include="Assets/Regular Assets/My Assets/Turrets/BehaviourController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/Imported Assets/Asset Store/TextMesh Pro/Shaders/TMPro.cginc" />
