@@ -102,8 +102,8 @@ MonoBehaviour:
     Prefab: {fileID: 3883836792120752580, guid: 3d0055f118e1d43ef898ed05e06f1191, type: 3}
     Radius: 25
     NumToSpawn: 1
-    HasHeightLimits: 1
-    MinHeightToSpawn: 25
-    MaxHeightToSpawn: 200
+    HasHeightLimits: 0
+    MinHeightToSpawn: 0
+    MaxHeightToSpawn: 0
     CanGoInWater: 0
     CanGoAboveWater: 1

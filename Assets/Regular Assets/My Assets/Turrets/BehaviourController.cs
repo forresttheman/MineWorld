@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class BehaviourController : MonoBehaviour
 {
+    [Tooltip ("Determines if you start in 3rd person view")]
     public bool isIn3rd = true;
     public GameObject camThird;
     public GameObject camFirst;
