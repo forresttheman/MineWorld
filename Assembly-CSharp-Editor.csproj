@@ -57,7 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets/Imported Assets/Asset Store/LowPolyWater_Pack/Scripts/Editor/GeneratePlane.cs" />
-    <Compile Include="Assets/Regular Assets/Scripts/Editor/ProcGenManagerEditor.cs" />
+    <Compile Include="Assets/Regular Assets/Scripts/Proc Gen/Editor/ProcGenManagerEditor.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

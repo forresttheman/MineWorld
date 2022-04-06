@@ -122,7 +122,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 75
+  controlID: 16
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -147,7 +147,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 76
+  controlID: 17
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -172,7 +172,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 77
+  controlID: 18
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -273,8 +273,8 @@ MonoBehaviour:
     y: 0
     width: 440
     height: 715
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -343,9 +343,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 749.4889, y: -25.26598, z: 509.51822}
+    m_Target: {x: 610.35156, y: 26.325785, z: 366.21094}
     speed: 2
-    m_Value: {x: 749.4889, y: -25.26598, z: 509.51822}
+    m_Value: {x: 610.35156, y: 26.325785, z: 366.21094}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -392,13 +392,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.16747487, y: -0.48246378, z: 0.09447972, w: -0.85456306}
+    m_Target: {x: -0.4227575, y: -0.07280205, z: 0.034035716, w: -0.9026876}
     speed: 2
-    m_Value: {x: -0.1671887, y: -0.48501956, z: 0.0949806, w: -0.85310173}
+    m_Value: {x: -0.42275172, y: -0.07280105, z: 0.03403525, w: -0.9026752}
   m_Size:
-    m_Target: 1773.6487
+    m_Target: 490.27454
     speed: 2
-    m_Value: 1674.4382
+    m_Value: 503.49118
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -451,9 +451,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 846affff946affff9c6affffa06affffc86affffd06affffe06affff0c6bffff146bffff1c6bffff386bffff406bffff506bffff586bffffdc74ffff6afbffff1466000058740000cc910000
+      m_SelectedIDs: 4a8c0400
+      m_LastClickedID: 298058
+      m_ExpandedIDs: 8cc3faff6c7ffbffd63bfcfff4f7fcff70fbffffc065000054920000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -535,7 +535,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 0
+    m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -629,22 +629,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Regular Assets/Data/Object Placers
+    - Assets/Regular Assets/Scenes
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Regular Assets/Data/Object Placers
+  - Assets/Regular Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: /Users/forrestmorgan/Documents/GitHub/MineWorld
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 106}
-    m_SelectedIDs: eed52e00
-    m_LastClickedID: 3069422
-    m_ExpandedIDs: 0000000004a8000006a8000008a800000aa800000ca800000ea8000010a8000012a8000014a8000016a8000018a800001aa800001ca800001ea8000020a8000022a8000024a8000026a8000028a8000056d50c00f8d52e00ece93200
+    scrollPos: {x: 0, y: 207}
+    m_SelectedIDs: 6ca80000
+    m_LastClickedID: 43116
+    m_ExpandedIDs: 00000000eca70000eea70000f0a70000f2a70000f4a70000f6a70000f8a70000faa70000fca70000fea7000000a8000002a8000004a8000006a8000008a800000aa800000ea8000010a8000012a8000014a8000046a80000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -672,7 +672,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000004a8000006a8000008a800000aa800000ca800000ea8000010a8000012a8000014a8000016a8000018a800001aa800001ca800001ea8000020a8000022a8000024a8000026a8000028a80000
+    m_ExpandedIDs: 00000000eca70000eea70000f0a70000f2a70000f4a70000f6a70000f8a70000faa70000fca70000fea7000000a8000002a8000004a8000006a8000008a800000aa800000ca800000ea8000010a8000012a8000014a80000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 

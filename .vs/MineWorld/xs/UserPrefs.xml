@@ -1,21 +1,19 @@
 ﻿<Properties StartupConfiguration="{01C476A1-4C43-8C47-322B-82D30607E01B}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Regular Assets/My Assets/Turrets/BehaviourController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Regular Assets/Turrets/BehaviourController.cs">
     <Files>
-      <File FileName="Assets/Regular Assets/My Assets/Turrets/BehaviourController.cs" Line="10" Column="18" />
+      <File FileName="Assets/Regular Assets/My Assets/Turrets/BehaviourController.cs" Line="28" Column="10" />
       <File FileName="Assets/Regular Assets/Scripts/DayNightCycle.cs" Line="19" Column="30" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="MineWorld" expanded="True">
-            <Node name="Assets" expanded="True" selected="True">
+            <Node name="Assets" expanded="True">
               <Node name="Imported Assets" expanded="True" />
               <Node name="Regular Assets" expanded="True">
-                <Node name="My Assets" expanded="True">
-                  <Node name="Turrets" expanded="True" />
-                </Node>
-                <Node name="Scripts" expanded="True">
-                  <Node name="HeightMapModifiers" expanded="True" />
+                <Node name="Scripts" expanded="True" />
+                <Node name="Turrets" expanded="True">
+                  <Node name="BehaviourController.cs" selected="True" />
                 </Node>
               </Node>
             </Node>
